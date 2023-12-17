@@ -197,7 +197,7 @@ def bot_share():
             data = json.loads(post)
             if "id" in post:
                 bas = str(datetime.now() - basariganteng).split('.')[0]
-                print(f'{P}\r   └──>{H} {bas} {K} Y{K}A{K}M{K}I{K}N SEND {H}[{n}]{P}{K} AUTO SHARE {H} SUCSSES{H} ',
+                print(f'{P}\r   └──>{H} {bas} {K} T{K}A{K}S{K}L{K}I{K}M SEND {H}[{n}]{P}{K} AUTO SHARE {H} SUCSSES{H} ',
                       end='');
                 sys.stdout.flush()
             else:
